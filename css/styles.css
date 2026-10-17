@@ -1,218 +1,53 @@
-    /* ========================= */
-/* R2 - MOBILE FIRST         */
-/* ========================= */
-
 :root{
-    --primario:#1b1744;
-    --secundario:#2f2963;
-    --acento:#4f46e5;
-    --fondo:#f5f7fa;
-    --blanco:#ffffff;
-    --texto:#333333;
-    --borde:#dfe3e8;
-}
+    --fondo:#0f172a;
+    --panel:#1e293b;
+    --panel-hover:#334155;
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    --texto:#e2e8f0;
+    --titulo:#ffffff;
+
+    --acento:#38bdf8;
+    --acento-hover:#0ea5e9;
+
+    --borde:#475569;
 }
 
 body{
-    font-family:Arial, Helvetica, sans-serif;
-    background-color:var(--fondo);
-    color:var(--texto);
-    line-height:1.6;
-}
-
-/* R6 */
-
-.contenedor{
-    max-width:1200px;
-    margin:0 auto;
-    padding:1rem;
-
-    display:grid;
-
-    grid-template-areas:
-    "cabecera"
-    "menu"
-    "principal"
-    "pie";
-
-    gap:1rem;
-}
-
-/* R4 */
-
-.cabecera{
-    grid-area:cabecera;
-    background:var(--primario);
-    color:white;
-    padding:2rem 1rem;
-    text-align:center;
-    border-radius:12px;
-}
-
-.cabecera h1{
-    font-size:2rem;
-}
-
-.subtitulo{
-    margin-top:.5rem;
-    font-size:1rem;
-}
-
-.menu{
-    grid-area:menu;
-    background:white;
-    border-radius:12px;
-    padding:1rem;
-}
-
-.menu ul{
-    list-style:none;
-}
-
-.menu li{
-    margin-bottom:.5rem;
-}
-
-.menu a{
-    text-decoration:none;
-    color:var(--primario);
-    font-weight:bold;
-}
-
-.menu a:hover{
-    color:var(--acento);
-}
-
-.principal{
-    grid-area:principal;
-}
-
-.principal section{
-    background:white;
-    padding:1.5rem;
-    border-radius:12px;
-    margin-bottom:1rem;
-}
-
-.principal h2{
-    color:var(--primario);
-    margin-bottom:1rem;
-}
-
-.experiencia article{
-    padding:.75rem;
-    border-left:4px solid var(--acento);
-}
-
-/* ========================= */
-/* R5 TARJETAS               */
-/* ========================= */
-
-.tarjetas{
-    display:grid;
-
-    grid-template-columns:
-    repeat(auto-fit,minmax(150px,1fr));
-
-    gap:1rem;
-}
-
-.tarjeta{
     background:var(--fondo);
-    border:1px solid var(--borde);
-    border-radius:10px;
-    padding:1.5rem 1rem;
-    text-align:center;
-    transition:.3s;
+    color:var(--texto);
+    font-family:'Segoe UI',sans-serif;
+}    
+section{
+    padding:4rem 2rem;
 }
 
-.tarjeta:hover{
-    transform:translateY(-4px);
-    box-shadow:0 4px 10px rgba(0,0,0,.15);
+h2{
+    margin-bottom:2rem;
+    color:var(--titulo);
+}
+    
+ .hero{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    min-height: 100vh;    
+    align-items:center;
+
+    padding:4rem 2rem;
 }
 
-.competencias ul{
-    padding-left:1.5rem;
-}
-
-.competencias li{
+.hero__contenido h1{
+    font-size:clamp(2.5rem,5vw,5rem);
+    color:var(--titulo);
     margin-bottom:.5rem;
 }
 
-.pie{
-    grid-area:pie;
-    background:var(--primario);
-    color:white;
-    padding:1.5rem;
-    border-radius:12px;
+.hero__contenido h2{
+    color:var(--acento);
+    font-weight:500;
+    margin-bottom:1rem;
 }
 
-.pie a{
-    color:white;
-}
-
-.pie p{
-    margin-top:.5rem;
-}
-
-/* ========================= */
-/* R7 IMAGENES RESPONSIVE    */
-/* ========================= */
-
-img{
-    max-width:100%;
-    height:auto;
-    display:block;
-}
-
-/* ========================= */
-/* R3 BREAKPOINT TABLET      */
-/* ========================= */
-
-@media (min-width:768px){
-
-    .menu ul{
-        display:flex;
-        justify-content:center;
-        gap:2rem;
-    }
-
-    .menu li{
-        margin:0;
-    }
-
-}
-
-/* ========================= */
-/* R3 BREAKPOINT ESCRITORIO  */
-/* ========================= */
-
-@media (min-width:1024px){
-
-    .contenedor{
-
-        grid-template-columns:
-        250px 1fr;
-
-        grid-template-areas:
-        "cabecera cabecera"
-        "menu principal"
-        "pie pie";
-    }
-
-    .menu{
-        height:fit-content;
-        position:sticky;
-        top:1rem;
-    }
-
-    .menu ul{
-        flex-direction:column;
-        align-items:flex-start;
-    }
+.hero__contenido p{
+    max-width:700px;
+    font-size:1.1rem;
 }
