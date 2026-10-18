@@ -31,23 +31,26 @@ Página donde comparto algunas de mis lecturas favoritas y los géneros literari
 
 ### Versión móvil
 
-![Inicio móvil](mockups/mockupsiniciomovil1.jpg)
+<p align="center">
+    <img src="mockups/mockupsiniciomovil1.jpg" width="350"></p>
 
 ### Versión computador
-
-![Inicio computador](mockups/mockupiniciopc1.png)
+<p align="center">
+<img src="mockups/mockupiniciopc1.png" width="350"></p>
 
 ---
 
 ## Hobbies
 
 ### Versión móvil
-![Hobbies computador](mockups/mockupshobbiemovil2.jpg)
+<p align="center">
+<img src="mockups/mockupshobbiemovil2.jpg" width="350"></p>
 
 
 ### Versión computador
 
-![Hobbies computador](mockups/mockuphobbiepc2.jpg)
+<p align="center">
+<img src="mockups/mockuphobbiepc2.jpg" width="350"></p>
 
 ---
 
@@ -55,23 +58,26 @@ Página donde comparto algunas de mis lecturas favoritas y los géneros literari
 
 ### Versión móvil
 
-![Libros computador](mockups/mockuplibromovil3.png)
+<p align="center">
+<img src="mockups/mockuplibromovil3.png" width="350"></p>
 
 ### Versión computador
 
-![Hobbies computador](mockups/mockuplibropc3.png)
+<p align="center">
+<img src="mockups/mockuplibropc3.png" width="350"></p>
 
 ---
 
 # Capturas del sitio publicado
 
 ## Vista desde celular
-
-![Vista móvil](capturas/movil.jpeg)
+<p align="center">
+<img src="capturas/movil.jpeg" width="350"></p>
 
 ## Vista desde computador
 
-![Vista computador](capturas/portatil.png)
+<p align="center">
+<img src="capturas/portatil.png" width="400"></p>
 
 ---
 
