@@ -1,18 +1,19 @@
 /* =============================================== */
 /* VARIABLES */
 /* =============================================== */
-:root{
-    --fondo:#0F0A19;
-    --panel:#1C1330;
-    --panel-hover:#2A1D47;
 
-    --texto:#E9E4F7;
-    --titulo:#FFFFFF;
+:root {
+    --fondo: #0B0714;
+    --panel: #19102B;
+    --panel-hover: #2D1B4E;
 
-    --acento:#A855F7;
-    --acento-hover:#C084FC;
+    --texto: #EDE4FF;
+    --titulo: #FFFFFF;
 
-    --borde:#4C3575;
+    --acento: #B76EFF;
+    --acento-hover: #E0B3FF;
+
+    --borde: #49316D;
 }
 
 body{
