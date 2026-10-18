@@ -168,3 +168,128 @@ h2{
     font-size:1.1rem;
 }
 
+/* ================================================= */
+/* BOTONES */
+/* ================================================= */
+.btn{
+    display:inline-block;
+    padding:1rem 1.5rem;
+    text-decoration:none;
+    border-radius:12px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn--primario{
+    background:var(--acento);
+    color:white;
+}
+
+.btn--primario:hover{
+    background:var(--acento-hover);
+}
+
+.btn--secundario{
+    border:2px solid var(--acento);
+    color:var(--acento);
+}
+
+.btn--secundario:hover{
+    background:var(--acento);
+    color:white;
+}
+
+
+/* ================================================= */
+/* TARJETAS */
+/* ================================================= */
+.tarjeta{
+    background:var(--panel);
+    border:1px solid var(--borde);
+    border-radius:16px;
+    padding:1.5rem;
+    transition:.3s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-8px);
+
+    background:var(--panel-hover);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+
+/* ================================================= */
+/* R5 - TARJETAS CON AUTO-FIT Y MINMAX */
+/* ================================================= */
+
+.tarjetas{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:1.5rem;
+    margin-top:1.5rem;
+}
+
+/* ================================================= */
+/* SOBRE MI */
+/* ================================================= */
+.sobre-mi{
+    max-width:1200px;
+    padding-top:1rem;
+}
+
+.sobre-mi .tarjeta{
+    max-width:1200px;
+}
+
+.sobre-mi p{
+    line-height:1.8;
+    margin-bottom:1rem;
+}
+
+.sobre-mi__contenido{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(300px,1fr));
+
+    gap:1.5rem;
+}
+
+/* ================================================= */
+/* PROYECTOS */
+/* ================================================= */
+
+.proyectos-destacados{
+    padding-top:1rem;
+}
+
+.proyectos-destacados .tarjeta p{
+    margin-bottom:1.5rem;
+}
+
+/* ================================================= */
+/* R3 - BREAKPOINT 600PX Y 1024PX*/
+/* ================================================= */
+
+@media (min-width:600px){
+
+    .menu ul{
+        justify-content:center;
+    }
+
+}
+
+@media (min-width:1024px){
+
+    .hero{
+
+        grid-template-areas:
+        "contenido imagen";
+
+        grid-template-columns:
+        1.5fr 1fr;
+
+    }
+
+}
+
