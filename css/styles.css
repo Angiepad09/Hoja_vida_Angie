@@ -219,6 +219,18 @@ h2{
     box-shadow:0 15px 35px rgba(0,0,0,.25);
 }
 
+.tarjeta ul{
+    list-style:none;
+    margin:0;
+    padding-left:1.2rem;
+}
+
+.tarjeta li{
+    padding:.4rem 0;
+    border-bottom:1px solid var(--borde);
+    margin-bottom:.5rem;
+}
+
 /* ================================================= */
 /* R5 - TARJETAS CON AUTO-FIT Y MINMAX */
 /* ================================================= */
