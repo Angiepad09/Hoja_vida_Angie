@@ -36,7 +36,7 @@ Página donde comparto algunas de mis lecturas favoritas y los géneros literari
 
 ### Versión computador
 <p align="center">
-<img src="mockups/mockupiniciopc1.png" width="350"></p>
+<img src="mockups/mockupiniciopc1.png" width="500"></p>
 
 ---
 
@@ -50,7 +50,7 @@ Página donde comparto algunas de mis lecturas favoritas y los géneros literari
 ### Versión computador
 
 <p align="center">
-<img src="mockups/mockuphobbiepc2.jpg" width="350"></p>
+<img src="mockups/mockuphobbiepc2.jpg" width="500"></p>
 
 ---
 
@@ -64,7 +64,7 @@ Página donde comparto algunas de mis lecturas favoritas y los géneros literari
 ### Versión computador
 
 <p align="center">
-<img src="mockups/mockuplibropc3.png" width="350"></p>
+<img src="mockups/mockuplibropc3.png" width="500"></p>
 
 ---
 
