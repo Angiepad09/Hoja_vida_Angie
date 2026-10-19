@@ -115,19 +115,26 @@ A partir de los 1024px el Hero cambia de una columna a dos columnas utilizando C
 1. Creé un repositorio público en GitHub.
 2. Subí todos los archivos del proyecto al repositorio.
 4. Fui a Setting -> Pages.
-6. En Branch seleccioné la rama principal del repositorio, presione SAVE.
-7. Esperé a que GitHub generara el enlace público.
-8. Verifiqué que todas las páginas, enlaces e imágenes funcionaran correctamente.
+5. En Branch seleccioné la rama principal del repositorio, presione SAVE.
+6. Esperé a que GitHub generara el enlace público.
+7. Verifiqué que todas las páginas, enlaces e imágenes funcionaran correctamente.
 
 ---
-No consulte ninguna pagina, Ya tenia conocimientos previos como como se realizaba
-la publicación en GitHub Pages. Igualmente dijo la documentacion oficial de Github
+### Nota
+
+Ya tenía conocimientos previos sobre la publicación de sitios mediante GitHub Pages. Sin embargo, consulté la documentación oficial de GitHub como referencia para verificar algunos conceptos y buenas prácticas.
 
 # Fuentes consultadas
 
 https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site
 
 ---
+
+## Verificación 
+
+- HTML validado con W3C sin errores.
+- Sitio publicado mediante GitHub Pages.
+- Repositorio público y accesible.
 
 # Autor
 
