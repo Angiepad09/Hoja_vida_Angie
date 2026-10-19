@@ -114,10 +114,10 @@ A partir de los 1024px el Hero cambia de una columna a dos columnas utilizando C
 
 1. Creé un repositorio público en GitHub.
 2. Subí todos los archivos del proyecto al repositorio.
-4. Fui a Setting -> Pages.
-5. En Branch seleccioné la rama principal del repositorio, presione SAVE.
-6. Esperé a que GitHub generara el enlace público.
-7. Verifiqué que todas las páginas, enlaces e imágenes funcionaran correctamente.
+3. Fui a Setting -> Pages.
+4. En Branch seleccioné la rama principal del repositorio, presione SAVE.
+5. Esperé a que GitHub generara el enlace público.
+6. Verifiqué que todas las páginas, enlaces e imágenes funcionaran correctamente.
 
 ---
 ### Nota
